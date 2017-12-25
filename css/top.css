@@ -1,0 +1,22 @@
+*{margin: 0;padding: 0;list-style: none;}
+a{color:#666;text-decoration:none;cursor: pointer;}
+a:hover{ color:#FF7700;}
+a img{border:0;vertical-align:middle;}
+img{vertical-align:middle;}
+.over{overflow:hidden;zoom:1;}
+/**top**/
+.top{background-color: #f5f5f5;}
+.topover{width: 1190px;margin: 0 auto;padding:12px 0;height: 16px;line-height: 16px;}
+.topoverleft{float: left;}
+.topoverleft p{color:#666;font-family: simsun;font-size: 12px;float: left;margin-right: 6px;}
+.sina{background: url(../images/ico/whole.png)no-repeat 0 0;display: inline-block;width: 16px;height: 16px;float: left;margin-right: 5px;}
+.weibo{background: url(../images/ico/whole.png) no-repeat -21px 0;display: inline-block;width: 16px;height: 16px;float: left;margin-right: 5px;}
+.weixin{background: url(../images/ico/whole.png) no-repeat -41px 0;display: inline-block;width: 17px;height: 16px;float: left;margin-right: 8px;}
+.gou{background: url(../images/ico/whole.png) no-repeat  -142px 0px;display: inline-block;width:7px;height: 4px;float: left;margin-top: 5px;}
+.topoverright{float: right;}
+.topoverright a{text-align:right ;margin-right: 10px;float: left;}
+.topoverright span{float: left;}
+.myorder{ float:left; display:inline-block; width:15px; height:14px; background:url(../images/ico/whole.png) no-repeat -64px 0; margin-right:3px; margin-top:1px;}
+.mylove{ float:left; display:inline-block; width:16px; height:14px; background:url(../images/ico/whole.png) no-repeat -84px 0; margin-right:3px; margin-top:1px;}
+.service{ float:left; display:inline-block; width:13px; height:14px; background:url(../images/ico/whole.png) no-repeat -107px 0; margin-right:3px; margin-top:1px;}
+.call{ float:left; display:inline-block; width:11px; height:14px; background:url(../images/ico/whole.png) no-repeat -127px 0; margin-right:3px; margin-top:1px;}
