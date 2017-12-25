@@ -30,3 +30,7 @@ img{vertical-align:middle;}
 .keyword a{ display:inline-block; margin-right:5px;}
 .keyword a span{ color:#FF7700;}
 .car{ float:right; width:180px; height:42px; margin-top:15px; background-color:#1D7AD9; padding-left:25px;}
+.carimg{ background:url(../images/ico/whole.png) no-repeat -185px 0; width:23px; height:20px; float:left; margin-top:12px; margin-right:7px;}
+.carword{ float:left; color:#fff; font-family:"微软雅黑"; font-size:16px; line-height:42px; padding-right:20px; border-right:1px solid #0052A6;}
+.carnumber{ float:left; border-left:1px solid #4D9CEB; width:50px; font-family:"微软雅黑"; font-size:16px; color:#fff; line-height:42px; text-align:center; padding-left:10px;}
+.cardown{ background:url(../images/ico/whole.png) no-repeat -275px 0; float:left; width:8px; height:5px; margin-top:18px;}
