@@ -1,20 +1,14 @@
-.nav{ background-color: #FF7700; height: 45px; margin-top: 25px; position: height:45px; relative;width:1190px; margin:0 auto; }
-.nava li{ float: left;}
-.nava li:first-child{ width: 200px; background-color:#1D7AD9; text-align: center;}
-.nav li:first-child a:hover{ background-color: #1D7AD9;}
-.nava li a{ color: #fff; font-family: "微软雅黑"; font-size: 16px; display: block; height: 45px; line-height: 45px; padding: 0 35px;}
-.nava li:nth-child(2) a,.nav li a:hover{ background-color: #F15500;}
-.navlist{ float:left; width:200px; margin-right:10px;border-bottom:2px solid #1D7AD9; background-color:#fff;}
-.erji{ position:absolute; display:none; width:200px; height:360px; border-bottom:2px solid #1D7AD9; background-color:#fff; z-index:999;}
-.navsecond li{ padding:12px 12px; height:95px; border-bottom:1px dashed #ddd; border-left:2px solid #1D7AD9; border-right:2px solid #1D7AD9;}
-.navsecond li.current{ border-right:2px solid #fff; background-color:#1D7AD9; border-bottom:0;}
-.navsecond li.current .navtitle a{ color:#fff;}
-.navsecond li.current .navtitle strong{ background:url(../images/ico/whole.png) no-repeat -289px 0;}
-.navsecond li.current .navlink a{ color:#fff;}
-.navtitle a{ font-family:"微软雅黑"; float:left; color:#1D7AD9; font-size:16px; float:left;}
-.navtitle strong{ float:right; background:url(../images/ico/whole.png) no-repeat -243px 0; width:4px; height:8px; margin-top:6px;}
-.navlink{ margin-top:8px; line-height:22px;}
-.navlink a{ margin-right:12px;}
+.oneleft{ float: left; width: 196px; margin-right: 10px; border: 2px solid #1D7AD9; height: 361px; border-top: 0;}
+.subdl{ position: relative;}
+.subdl dl{ border-bottom: 1px dashed #ddd; padding: 11px;}
+.subdl:last-child dl{ border-bottom: 0;}
+.subdl dl dt a{ color: #1D7AD9; font-size: 16px; font-family: "微软雅黑"; display: block; background: url(../img/ico4.png) no-repeat right center; margin-bottom: 10px;}
+.subdl dl dd a{ display: inline-block; margin-right: 10px; line-height: 20px;font-size: 12px;}
+.subdl:hover{ background-color: #1D7AD9;}
+.subdl:hover dl dt a{ color: #fff; background-image: url(../img/ico5.png);}
+.subdl:hover dl dd a{ color: #fff;}
+.subnav{ position: absolute; left: 196px; top: 0; border: 2px solid #1D7AD9; padding: 30px; background-color: #fff; display: none; z-index: 999;}
+.subdl:hover .subnav{ display: block;}
 .subnav{ background-color:#fff; display:none; position:absolute; z-index:999; padding:10px 15px; width:475px; border:2px solid #1D7AD9;}
 .subnav dl{ overflow:hidden; zoom:1; padding:10px 0; border-bottom:1px dashed #ddd;}
 .subnav dl dt{ float:left; width:60px; text-align:right; line-height:22px; margin-right:15px;}
