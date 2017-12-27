@@ -1,21 +1,16 @@
+.one{width: 1190px;margin: 0 auto;}
 .oneleft{ float: left; width: 196px; margin-right: 10px; border: 2px solid #1D7AD9; height: 361px; border-top: 0;}
-.subdl{ position: relative;}
+.subdl{ position: relative;line-height: 22px;}
 .subdl dl{ border-bottom: 1px dashed #ddd; padding: 11px;}
 .subdl:last-child dl{ border-bottom: 0;}
 .subdl dl dt a{ color: #1D7AD9; font-size: 16px; font-family: "微软雅黑"; display: block; background: url(../img/ico4.png) no-repeat right center; margin-bottom: 10px;}
-.subdl dl dd a{ display: inline-block; margin-right: 10px; line-height: 20px;font-size: 12px;}
+.subdl dl dd a{ display: inline-block; margin-right: 10px; line-height: 22px;}
 .subdl:hover{ background-color: #1D7AD9;}
 .subdl:hover dl dt a{ color: #fff; background-image: url(../img/ico5.png);}
 .subdl:hover dl dd a{ color: #fff;}
 .subnav{ position: absolute; left: 196px; top: 0; border: 2px solid #1D7AD9; padding: 30px; background-color: #fff; display: none; z-index: 999;}
 .subdl:hover .subnav{ display: block;}
-.subnav{ background-color:#fff; display:none; position:absolute; z-index:999; padding:10px 15px; width:475px; border:2px solid #1D7AD9;}
-.subnav dl{ overflow:hidden; zoom:1; padding:10px 0; border-bottom:1px dashed #ddd;}
-.subnav dl dt{ float:left; width:60px; text-align:right; line-height:22px; margin-right:15px;}
-.subnav dl dt a{ font-weight:bold; color:#1D7AD9;}
-.subnav dl dd{ float:left; width:400px; line-height:22px;}
-.subnav dl dd a{ display:inline-block; margin-right:15px;}
-.subnav dl dd a span{ color:#FF7700;}
+
 /* ---------- banner start ---------- */
 .wrapper{ width:1190px; margin:0 auto;}
 .banner{ float:left; margin-top:10px; width:755px; height:353px; overflow:hidden; zoom:1; position:relative; z-index:10;}
@@ -36,10 +31,10 @@
 /* ---------- 新品首发 end ---------- */
 
 /* ---------- 兑换专区 start ---------- */
-.title2{ margin-top:12px;}
-.column{ float:left;}
-.duihuan{ float:left; background:url(../images/ico/whole.png) no-repeat -134px -111px; width:28px; height:31px; margin-right:10px;}
-.column span{ float:left; line-height:35px; font-family:"微软雅黑"; font-size:18px; color:#666;}
+.title2{width: 1190px;padding-top:12px ;}
+.column{float: left; }
+.duihuan{float: left;  background:url(../images/ico/whole.png) no-repeat -134px -111px; width:28px; height:31px; margin-right:10px;}
+.column span{float: left; line-height:35px; font-family:"微软雅黑"; font-size:18px; color:#666;}
 .click{ float:right; padding-top:12px;}
 .click strong{ float:left; background:url(../images/ico/whole.png) no-repeat -185px -150px; width:15px; height:18px; margin-right:5px;}
 .click a{ float:left; line-height:20px;}
@@ -150,28 +145,7 @@
 .tejiasma dd{ line-height:20px;}
 .tejiasma dd strong{ color:#f70;}
 
-/*.tejia{ border-left:1px solid #ddd; border-right:1px solid #ddd; border-bottom:1px solid #ddd; border-top:2px solid #AA73D1; width:100%; margin-top:10px;}
-.tejia tr td{ border:1px solid #ddd;}
-.tejiabig{ width:240px; margin:0 auto; padding:15px 0;}
-.tejiabig dt img{ width:240px; height:240px;}
-.tejiabig dt{ margin-bottom:12px;}
-.zheqian{ color:#999; margin-top:12px;}
-.zheqian i{ font-style:normal; text-decoration:line-through;}
-.zhehou{ color:#666; margin-top:8px; line-height:20px;}
-.zhehou strong{ color:#f70;}
-.zhehou span{ display:inline-block; margin-left:10px; color:#fff; padding:0 6px; background-color:#f70; height:20px;}
-.icoa{ margin-top:8px;}
-.cang{ float:left; width:55px; height:22px; float:left; color:#fff; line-height:22px; background-color:#f70; margin-right:14px;}
-.cang strong{ float:left; background:url(../images/ico/whole.png) no-repeat -253px 0; width:13px; height:11px; margin:6px 5px 0 6px;}
-.cang span{ float:left;}
-.icoa b{ float:left; background:url(../images/ico/whole.png) no-repeat -218px 0; width:17px; height:15px; margin:3px 4px 0 0;}
-.icoa p{ float:left; color:#999; line-height:22px;}
-.tejiasma{ width:125px; margin:0 auto; padding:0 12px;}
-.tejiasma dt{ margin-bottom:5px;}
-.tejiasma dt img{ width:125px; height:125px;}
-.tejiasma dd{ line-height:20px;}
-.tejiasma dd strong{ color:#f70;}*/
-/* ---------- 特价专卖 end ---------- */
+
 
 /* ---------- 底部广告 start ---------- */
 .footadd{ margin-top:15px;}
