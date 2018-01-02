@@ -1,0 +1,91 @@
+.one{width: 1190px;margin: 0 auto;}
+.oneleft{ float: left; width: 196px; margin-right: 10px; border: 2px solid #1D7AD9; height: 361px; border-top: 0;}
+.subdl{ position: relative;line-height: 22px;}
+.subdl dl{ border-bottom: 1px dashed #ddd; padding: 11px;}
+.subdl:last-child dl{ border-bottom: 0;}
+.subdl dl dt a{ color: #1D7AD9; font-size: 16px; font-family: "微软雅黑"; display: block; background: url(../img/ico4.png) no-repeat right center; margin-bottom: 10px;}
+.subdl dl dd a{ display: inline-block; margin-right: 10px; line-height: 22px;}
+.subdl:hover{ background-color: #1D7AD9;}
+.subdl:hover dl dt a{ color: #fff; background-image: url(../img/ico5.png);}
+.subdl:hover dl dd a{ color: #fff;}
+.subnav{ position: absolute; left: 196px; top: 0; border: 2px solid #1D7AD9; padding: 30px; background-color: #fff; display: none; z-index: 999;}
+.subdl:hover .subnav{ display: block;}
+
+/* ---------- banner start ---------- */
+.wrapper{ width:1190px; margin:0 auto;}
+.banner{ float:left; margin-top:10px; width:755px; height:353px; overflow:hidden; zoom:1; position:relative; z-index:10;}
+.banimg a img{ width:755px; height:353px;}
+.banspan{ position:absolute; right:10px; bottom:15px; z-index:20;}
+.banspan span{ display:inline-block; margin-right:8px; color:#fff; width:18px; height:18px; text-align:center; line-height:18px; background-color:#000; border-radius:50%; overflow:hidden; cursor:pointer;}
+.banspan span.current{ background-color:#FF7700;}
+/* ---------- banner end ---------- */
+/* ---------- 新品首发 start ---------- */
+.newproduct{ float:right; width:215px; margin-top:15px;}
+.title1 strong{ float:left; display:inline-block; background:url(../images/ico/whole.png) no-repeat -140px -150px; width:17px; height:20px; margin-right:5px;}
+.title1 span{ font-family:"微软雅黑"; font-size:16px; line-height:14px; float:left; font-weight:normal; line-height:20px;}
+.newcon{ width:213px; height:312px; border:1px solid #ddd; overflow:hidden; zoom:1; margin-top:14px; position:relative; z-index:10;}
+.newimg a img{ width:213px; height:312px;}
+.newspan{ position:absolute; bottom:15px; left:65px; z-index:20;}
+.newspan span{ display:inline-block; margin:0 4px; color:#fff; width:10px; height:10px; text-align:center; line-height:18px; background-color:#FF7700; border-radius:50%; overflow:hidden; cursor:pointer;}
+.newspan span.current{ background-color:#fff;}
+/* ---------- 新品首发 end ---------- */
+
+/* ---------- 最新兑换 start ---------- */
+.salewrap{ background:url(../images/ico/salebg.jpg) repeat; margin-top:10px; padding:20px 0;}
+.salecon{ width:1190px; margin:0 auto;}
+.salenew{ background-color:#E1015A; padding:0 0 10px 0;}
+.saletit{ height:40px; line-height:40px; font-family:"微软雅黑"; color:#fff; font-size:16px; padding-left:15px;}
+.salebig{ padding:0 5px;}
+.salebig dl{ float:left; width:565px; height:235px; padding-right:15px; display:inline; margin:0 5px; overflow:hidden; zoom:1; background-color:#fff;}
+.salebig dl dt img{ width:225px; height:225px;}
+.salebig dl dt{ float:left; width:225px; height:225px; margin-right:10px; padding:5px;}
+.saleprice{ padding-top:20px; font-family:"微软雅黑"; font-size:20px; color:#E1015A;}
+.saleprice span{ font-size:35px; display:inline-block; margin-right:5px;}
+.saleck{ line-height:20px; color:#999;}
+.saleck span{ text-decoration:line-through;}
+.salename{ margin-top:12px; line-height:20px; height:40px;}
+.salename span{ color:#E1015A;}
+.salenum{ margin-top:12px; color:#999; line-height:20px;}
+.salenum span{ color:#E1015A;}
+.salebuy a{ display:inline-block; width:245px; height:35px; line-height:35px; text-align:center; font-family:"微软雅黑"; font-size:16px;border-radius:10px;-moz-border-radius:10px; -webkit-border-radius:10px; background-color:#E1015A; color:#fff; margin-top:10px;}
+.salebuy a:hover{ background-color:#D10055;}
+.salesma{ padding:0 5px; margin-top:10px;}
+.salesma dl{ width:285px; height:407px; float:left; background-color:#fff; display:inline; margin:0 5px;}
+.salesma dl dt{ padding:20px 20px 0 20px;}
+.salesma dl dt img{ width:245px; height:245px;}
+.salesma dl dd{ padding:0 20px;}
+.saleprice2{ margin-top:10px; font-family:"微软雅黑"; font-size:14px; color:#E1015A;}
+.saleprice2 span{ font-size:28px; display:inline-block; margin-right:5px;}
+.salename2{ line-height:20px; height:40px;}
+.salename2 span{ color:#E1015A;}
+.salebuy2 a{ display:inline-block; width:245px; height:35px; line-height:35px; text-align:center; font-family:"微软雅黑"; font-size:16px;border-radius:10px;-moz-border-radius:10px; -webkit-border-radius:10px; background-color:#E1015A; color:#fff; margin-top:5px;}
+.salebuy2 a:hover{ background-color:#D10055;}
+/* ---------- 最新兑换 end ---------- */
+
+/* ---------- 兑换内容 start ---------- */
+.salemk{ margin-top:15px;}
+.saleone{ float:left; width:296px; margin-right:6px;}
+.salebg1{ background:url(../images/ico/salebg1.png) repeat-y; width:282px; padding:0 7px 10px 7px;}
+.salebg1 dl{ padding:15px 0; margin:0 21px; border-bottom:1px dashed #ddd;}
+.salebg1 dl dt img{ width:240px; height:240px;}
+.salebg1 dl dt{ width:240px; height:240px; margin-bottom:8px;}
+.salebg1 dl dd.salename3{ line-height:20px; height:40px; margin-bottom:8px;}
+.saleprice3 span{ width:85px; height:20px; text-align:center; line-height:20px;border-radius:10px;-moz-border-radius:10px; -webkit-border-radius:10px; background-color:#f70; color:#fff; float:left; margin-right:60px;}
+.saleprice3 strong{ float:left; background:url(../images/ico/whole.png) no-repeat -218px 0; width:17px; height:15px; margin-right:5px; margin-top:2px;}
+.saleprice3 i{ float:left; color:#666; font-style:normal; margin-top:3px;}
+.more{ cursor:pointer; background:url(../images/ico/salebg2.png) no-repeat; width:296px; height:42px; line-height:35px;}
+.more span{ float:left; width:100px; color:#fff; padding-left:95px;}
+.more strong{ background:url(../images/ico/whole.png) no-repeat -263px -244px; width:8px; height:4px; float:left; margin-top:15px;}
+.more2{ cursor:pointer; background:url(../images/ico/salebg2.png) no-repeat; width:296px; height:42px; line-height:35px;}
+.more2 a{ float:left; width:100px; color:#fff; padding-left:95px;}
+.more2 strong{ background:url(../images/ico/whole.png) no-repeat -289px 0; width:4px; height:8px; float:left; margin-top:11px;}
+.saletwo{ float:right; background-color:#fff; width:278px;border-radius:10px;-moz-border-radius:10px; -webkit-border-radius:10px; margin-top:88px; padding-bottom:10px;}
+.twotit{ font-family:"微软雅黑"; font-size:16px; color:#666; padding-top:15px;padding-left:20px;}
+.saletwo dl{ padding:15px 0; margin:0 24px; border-bottom:1px dashed #ddd;}
+.saletwo dl dt{ width:230px; height:230px; margin-top:15px;}
+.saletwo dl dt img{ width:230px; height:230px;}
+.twoname{ display:block; line-height:20px; height:40px;}
+.twoprice strong{ color:#f70; display:inline-block; margin-right:15px;}
+.twoprice span{ color:#f70;}
+.twoprice{ color:#999; margin-top:8px;}
+/* ---------- 兑换内容 end ---------- */

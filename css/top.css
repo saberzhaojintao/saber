@@ -1,0 +1,78 @@
+*{margin: 0;padding: 0;list-style: none;}
+a{color:#666;text-decoration:none;cursor: pointer;}
+body{font-size:12px;font-family:"宋体"; background:#fff;}
+a:hover{ color:#FF7700;}
+a img{border:0;vertical-align:middle;}
+img{vertical-align:middle;}
+.over{overflow:hidden;zoom:1;}
+/**top**/
+.top{background-color: #f5f5f5;}
+.topover{width: 1190px;margin: 0 auto;padding:12px 0;height: 16px;line-height: 16px;}
+.topoverleft{float: left;}
+.topoverleft p{color:#666;font-family: simsun;font-size: 12px;float: left;margin-right: 6px;}
+.sina{background: url(../images/ico/whole.png)no-repeat 0 0;display: inline-block;width: 16px;height: 16px;float: left;margin-right: 5px;}
+.weibo{background: url(../images/ico/whole.png) no-repeat -21px 0;display: inline-block;width: 16px;height: 16px;float: left;margin-right: 5px;}
+.weixin{background: url(../images/ico/whole.png) no-repeat -41px 0;display: inline-block;width: 17px;height: 16px;float: left;margin-right: 8px;}
+.gou{background: url(../images/ico/whole.png) no-repeat  -142px 0px;display: inline-block;width:7px;height: 4px;float: left;margin-top: 5px;}
+.topoverright{float: right;}
+.topoverright a{text-align:right ;margin-right: 10px;float: left;}
+.topoverright span{float: left;color: #666;}
+.myorder{ float:left; display:inline-block; width:15px; height:14px; background:url(../images/ico/whole.png) no-repeat -64px 0; margin-right:3px; margin-top:1px;}
+.mylove{ float:left; display:inline-block; width:16px; height:14px; background:url(../images/ico/whole.png) no-repeat -84px 0; margin-right:3px; margin-top:1px;}
+.service{ float:left; display:inline-block; width:13px; height:14px; background:url(../images/ico/whole.png) no-repeat -107px 0; margin-right:3px; margin-top:1px;}
+.call{ float:left; display:inline-block; width:11px; height:14px; background:url(../images/ico/whole.png) no-repeat -127px 0; margin-right:3px; margin-top:1px;}
+.topadd a{ display:block; background:url(../images/add/topadd.jpg) no-repeat center top; height:70px;}
+.header{ width:1190px; margin:0 auto; padding-top:15px;}
+.logo{ float:left; width:200px; margin-right:160px;}
+.search{ float:left; width:495px; padding-top:15px;}
+.searchcon{ float:left; width:383px; height:38px; border:2px solid #FF7700; color:#999; padding-left:12px; font-size:14px; line-height:38px;}
+.searchsub{ float:left; border:0; width:95px; height:42px; background-color:#FF7700; line-height:42px; text-align:center; color:#fff; font-family:"微软雅黑"; font-size:16px;}
+.keyword{ margin-top:10px;}
+.keyword a{ display:inline-block; margin-right:5px;}
+.keyword a span{ color:#FF7700;}
+.car{ float:right;position: relative;}
+.carover a{width:180px; height:42px;display: block;margin-top:15px; background-color:#1D7AD9; padding-left:25px; margin-left:35px;}
+.carimg{ background:url(../images/ico/whole.png) no-repeat -185px 0; width:23px; height:20px; float:left; margin-top:12px; margin-right:7px;}
+.carword{ float:left; color:#fff; font-family:"微软雅黑"; font-size:16px; line-height:42px; padding-right:20px; border-right:1px solid #0052A6;}
+.carnumber{ float:left; border-left:1px solid #4D9CEB; width:50px; font-family:"微软雅黑"; font-size:16px; color:#fff; line-height:42px; text-align:center; padding-left:10px;}
+.cardown{ background:url(../images/ico/whole.png) no-repeat -275px 0; float:left; width:8px; height:5px; margin-top:18px;}
+.carmore{display:none;
+	position: absolute;left: -20px;
+	width:210px; padding:2px 14px 12px 14px; border-left:1px solid #ddd; border-right:1px solid #ddd; border-bottom:1px solid #ddd; border-top:2px solid #1D7AD9;
+ z-index: 9999;}
+
+.carmore dl{border-bottom: 1px dashed #ddd;overflow: hidden;zoom: 1;padding: 15px 10px; }
+.carmore dl dd{float: right;width:110px ;}
+.carmore dl dt{float: left;width: 62px;margin-right: 10px;}
+.carmore dl dt img{width: 60px;border:1px solid #ddd;}
+.carmore dl dd a{line-height: 20px;}
+.carmore dd span{color: #FF7700;}
+.carmore .total{text-align: right;margin-top: 15px;}
+.carmore .total span{color: #FF7700;font-weight: bold;}
+.carmore .cargo{ margin-top:10px; background-color:#1D7AD9; height:28px; float:right; line-height:28px; padding:0 15px;}
+.carmore .cargo a{ display:inline-block; color:#fff; float:left; margin-right:8px;}
+.carmore .cargo strong{ display:inline-block; background:url(../images/ico/whole.png) no-repeat -289px 0; width:4px; height:8px; float:left; margin-top:10px;}
+.car:hover .carmore{display:block;}
+/*------------------------- nav start -----------------------*/
+.nav{ background-color: #FF7700; height: 45px; margin-top: 25px; position: relative;width: 1190px;margin: 0 auto}
+.nav li{ float: left; ;}
+.nav li:first-child{ width: 200px; background-color:#1D7AD9; text-align: center;}
+.nav li:first-child a:hover{ background-color: #1D7AD9;}
+.nav li a{ color: #fff; font-family: "微软雅黑"; font-size: 16px; display: block; height: 45px; line-height: 45px; padding: 0 35px;}
+.nav li:nth-child(2) a,.nav li a:hover{ background-color: #F15500;}
+.hotico{ width: 25px; height: 14px; background: url(../images/ico/whole.png) no-repeat -155px 0; position: absolute; right: 220px; top: 5px;}
+/*------------------------- nav end -----------------------*/
+/* ---------- 底部友情链接 start ---------- */
+.footer{ background-color:#f2f2f2; padding:35px 0 30px 0; margin-top:15px;width: 1190px;margin: 0 auto;}
+.footercon{ width:1110px; padding-left:40px; margin:0 auto;}
+.footercon dl{ float:left; width:160px; margin:0 30px; display:inline;}
+.footercon dl dt{ overflow:hidden; zoom:1; margin-bottom:5px;}
+.footgwzn{ float:left; background:url(../images/ico/whole.png) no-repeat 0px -28px; width:49px; height:40px; margin-right:10px;}
+.footercon dl dt span{ float:left; font-family:"微软雅黑"; font-size:16px; color:#666; margin-top:15px;}
+.footercon dl dd{ padding-left:59px; line-height:30px;}
+.footpsfs{ float:left; background:url(../images/ico/whole.png) no-repeat -62px -28px; width:49px; height:40px; margin-right:10px;}
+.footzffs{ float:left; background:url(../images/ico/whole.png) no-repeat -120px -28px; width:49px; height:40px; margin-right:10px;}
+.footshfw{ float:left; background:url(../images/ico/whole.png) no-repeat -177px -28px; width:49px; height:40px; margin-right:10px;}
+.footkfzx{ float:left; background:url(../images/ico/whole.png) no-repeat -233px -28px; width:49px; height:40px; margin-right:10px;}
+.bottom{ padding:15px; text-align:center; line-height:22px; color:#666;}
+/* ---------- 底部友情链接 end ---------- */
