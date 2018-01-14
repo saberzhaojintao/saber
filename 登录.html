@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" href="css/font-awesome.css" />
+	<body>
+		<style type="text/css">
+			html{font-size: 100px;    font-size:calc(100vw/7.5);
+			     }
+			.over{
+				overflow: hidden;
+				zoom: 1;
+			}
+			body{margin: 0;
+			     padding: 0;
+			     list-style: none;
+			     }
+			header{
+				background-color: #f9f9f9;
+				font-size: 0.5rem;
+				line-height: 0.9rem;
+				height: 0.9rem;
+				text-align: center;
+				width:100%;
+				border-bottom:1px solid #a8a8a8 ;
+				}
+			.left{
+				background: url(img/1.gif) no-repeat left center;width: 0.5rem;
+				height:0.5rem;float: left;
+				margin-top:0.25rem ;
+				
+			}
+			.demo1{
+				margin-left: 5%;
+		        font-size: 0.3rem;	
+		        text-align: center;
+		        line-height: 0.9rem;
+		        height: 0.9rem;
+		        width: 
+		        padding-left:0.1rem ;
+		        }
+		    .demo1 input{
+		    	width: 5rem;
+		    	height: 0.5rem;
+		    	line-height: 0.6rem;
+		    	border: none;
+		    	color: #dfdfdf;
+		    	margin-left: 0.5rem;
+		    }
+		    .demo1 div{float: left;
+		    	border-bottom: 1px solid #a8a8a8;padding-left: 0.3rem
+		    }
+		    .word{width: 93%;text-align: left;}
+		    .word input{
+		    	width: 2.5rem;
+		    	
+		    }
+		    .user img{float: right;width:0.5rem;margin-top: 0.2rem;}
+		    .pass img{float: right;width:0.5rem;margin-top: 0.2rem;}
+		    .demo2{
+		    	width: 90%;
+		    	margin-left: 5%;
+		    	height: 0.9rem;
+		    	background-color: #eeeeee;
+		    	font-size: 0.4rem;
+		    	
+		    }
+		    .footer{height: 0.9rem;position: relative;
+		    line-height: 0.9rem;width: 90%;}
+		    .footer span{font-size:0.2rem ;}
+		    .check{margin-left: 0.3rem;
+		    float: left;
+		    }
+		    .check i.fa{
+				color: red;
+				font-size: 0.3em;
+			}
+			.footer img{width: 0.5rem;height: 0.5rem;}
+			.footer div{
+				float: left;
+			}
+			.deng{	margin-left: 0.8rem;}
+			.zhu{margin-left: 1rem;}
+			.wei{float: left; width: 90%;}
+			.wei span{font-size: 0.2rem;color: #D5D5D5;float: left;margin-left: 0.1rem;}
+			.wei .zuo{width:38% ;border-bottom: 1px solid  #D5D5D5;margin-left: 0.3rem;float: left;margin-top: 0.1rem;}
+			.wei .you{width:38% ;border-bottom: 1px solid  #D5D5D5;float: right;margin-top: 0.1rem;}
+		    footer img{margin-left: 42%;}
+		</style>
+		<header>
+			<div class="left">
+				
+			</div>
+			<div class="demo over">京东登录</div>
+		</header>
+	   <form class="demo1">
+	   	<div class="user">
+	   		<span>帐号</span><input type="text" name="user"  class="user"
+	   		value="用户名/邮箱/已验证手机"/><img id="clean" src="img/京东登录_07.gif" />
+	   	</div>
+	   	<div class="pass">
+	   		<span>密码</span><input type="password" name="password"  class="password"
+	   		value="请输入密码"/><img id="show" src="img/京东登录_10.gif" />
+	   	</div>
+	   	<div class="word">
+	   		<span>验证码</span><input type="password" name="password"  class="password"
+	   		value="请输入密码"/>|<img  />
+	   	</div>
+	   </form>
+		<input type="submit"  class="demo2" value="登录"/>
+	   	  <div class="footer">
+	   	  	<div class="check">	
+		     <i class="fa fa-check-circle"></i> <span>一个月面登录</span>
+		    </div> 
+		   	<div class="deng">
+		   	 <img src="img/京东登录_15.gif"  /><span>找回密码</span>	
+		   	</div>		   	
+		   	<div class="zhu">
+		   	<img src="img/京东登录_17.gif" /><span>快速注册</span>	
+		   	</div>
+ 
+	   	  </div> 
+		<footer>
+			<div class="wei">
+				<div class="zuo over">
+					
+				</div>
+				<span>其他登录方式</span>
+				<div class="you over">
+					
+				</div>
+				
+			</div>
+			<img src="img/京东登录_23.gif" />
+		</footer>
+          
+		
+		
+		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+		<script type="text/javascript">
+			var checked =true;
+				
+				$(".check").click(function(){
+					checked = !checked;
+					if(checked){
+						$(this).children("i").addClass("fa-check-circle").removeClass("fa-circle");
+					}else{
+						$(this).children("i").removeClass("fa-check-circle").addClass("fa-circle");
+					}
+					
+				});
+		</script>
+	</body>
+</html>

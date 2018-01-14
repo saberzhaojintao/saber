@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style type="text/css">
+			html{font-size: 100px;    font-size:calc(100vw/7.5);
+			     }
+			.over{
+				overflow: hidden;
+				zoom: 1;
+			}
+			body{margin: 0;
+			     padding: 0;
+			     list-style: none;
+			     }
+			header{
+				background-color: #f9f9f9;
+				font-size: 0.5rem;
+				line-height: 0.9rem;
+				height: 0.9rem;
+				text-align: center;
+				width:100%;
+				border-bottom:1px solid #a8a8a8 ;
+				}
+			.left{
+				background: url(img/1.gif) no-repeat left center;width: 0.5rem;
+				height:0.5rem;float: left;
+				margin-top:0.25rem ;
+				
+			}
+			.demo1{
+				margin-left: 5%;
+		        font-size: 0.3rem;	
+		        text-align: center;
+		        line-height: 0.9rem;
+		        height: 0.9rem;
+		        width: 90%
+		        padding-left:0.1rem ;
+		        }
+		    .demo1 div{ height: 0.9rem;
+		        width: 90%}
+		    .demo1 input{height: 0.5rem;
+		    	line-height: 0.6rem;
+		    	border: none;
+		    	color: #dfdfdf;
+		    	
+		    }
+		    .demo1 div{float: left;
+		    	border-bottom: 1px solid #a8a8a8;padding-left: 0.3rem
+		    }
+		    .word{width: 93%;text-align: left;}
+		    .word input{
+		    	width: 2.5rem;
+		    	
+		    }
+		    .user{float: left;margin-top: 0.2rem;width:100%;}
+		    .user input{width: 50%;}
+		    .pass{float: left;margin-top: 0.2rem;width: 100%;}
+		    .yan{border: none;background-color: #FFFFFF;float: right;margin-top: 0.35rem
+		    }
+		    
+		    .pass input{width: 60%;}
+		    .word input{width: 100%;float: left;margin-top: 0.2rem}
+		    .mima input{width: 100%;float: left;margin-top: 0.2rem}
+		    .demo2{
+		    	width: 90%;
+		    	margin-left: 5%;
+		    	height: 0.9rem;
+		    	background-color: #eeeeee;
+		    	font-size: 0.4rem;
+		    	
+		    }
+		    .duo{border: none;}
+		    .di{font-size: 0.2rem;margin-left: 5%;margin-top: 0.2rem;}
+		    .di a{color: red;}
+		</style>
+	</head>
+	<body>
+			<header>
+			
+				<div class="left"></div>
+				<form action="#" method="post">
+     			<div class="demo">京东注册</div>
+				</form>
+				
+			
+		</header>
+		 <form class="demo1">
+	   	<div class="user">
+	   		<input type="text" name="user"  class="user"
+	   		value="请输入验证码"/>|
+	   	</div>
+	   	<div class="pass">
+	   		<span>+0086<select class="duo"></select><input type="text" name="pass" 
+	   		value="请输入手机号"/><span>|</span><button class="yan">获取验证码</button>
+	   	</div>
+	   	<div class="word">
+	   		<input type="text" name="text" value="请输入收到的验证码"/>
+	   	</div>
+	   	<div class="mima">
+	   		<input type="text" name="text" value="请设置6—20位登录密码"/>
+	   	</div>
+	   </form>
+		<input type="submit"  class="demo2" value="注册"/>
+		<div class="di">
+			<span>注册即视为同意</span><a href="#">《京东用户注册协议》</a> 、<a href="#">《用户隐私政策》</a>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+	</head>
+	<body>
+		<style type="text/css">
+			html{font-size: 100px;    font-size:calc(100vw/7.5);
+			     }
+			.over{
+				overflow: hidden;
+				zoom: 1;
+			}
+				body{margin: 0;
+			     padding: 0;
+			     list-style: none;
+			     }
+			header{line-height: 0.9rem;
+				background-image:linear-gradient( to top, #f2f2f2,#fff);
+				height: 0.9rem;width: 100%;
+			
+				border-bottom: 1px solid #d7d7d7;
+				position: relative;
+				float: left;
+				
+			} 
+			form{
+				width: 70%; height: 0.9rem;line-height: 0.9rem;position: absolute;left: 15%;}
+			form input{border: 1px solid #d5d5d5;
+				border-radius: 0.3rem;
+			    width: 100%;height: 0.4rem;
+				float: left;
+			   margin-top: 0.25rem;
+			}
+			.left{
+				background: url(img/1.gif) no-repeat left center;width: 0.5rem;
+				height:0.5rem;float: left;
+				margin-top:0.25rem ;
+				
+			}
+			
+			section{
+				position: fixed;
+				height:auto;
+				top: 0.9rem;
+				bottom: 0;
+				left: 0;
+				right: 0;
+			}
+			aside{
+				height: 100%;
+				width: 1.5rem;
+				text-align: center;
+				position: relative;
+				border-right: 1px #CECECE solid;
+			}
+			aside ul{
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				list-style: none;
+				font-size: 0.2rem;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			aside ul li{
+				line-height: 0.9rem;
+				border-bottom:1px #CECECE solid;
+			}
+			aside ul li a{
+				text-decoration: none;
+				color: #000;
+			}
+			</style>
+			
+		<header>
+			
+				<div class="left  over"></div>
+				<form action="#" method="post">
+     				<input type="text" value=""/>
+				</form>
+				<div class="right"></div>
+			
+		</header>
+		<section>
+			<aside>
+				<ul>
+					<li><a href="#">京东超市</a></li>
+					<li><a href="#">全球购</a></li>
+					<li><a href="#">热门推荐</a></li>
+					<li><a href="#">男装</a></li>
+					<li><a href="#">女装</a></li>
+					<li><a href="#">母婴</a></li>
+					<li><a href="#">电器</a></li>
+					<li><a href="#">京东超市</a></li>
+					<li><a href="#">全球购</a></li>
+					<li><a href="#">热门推荐</a></li>
+					<li><a href="#">男装</a></li>
+					<li><a href="#">女装</a></li>
+					<li><a href="#">母婴</a></li>
+					<li><a href="#">电器</a></li>
+					<li><a href="#">京东超市</a></li>
+					<li><a href="#">全球购</a></li>
+					<li><a href="#">热门推荐</a></li>
+					<li><a href="#">男装</a></li>
+					<li><a href="#">女装</a></li>
+					<li><a href="#">母婴</a></li>
+					<li><a href="#">电器</a></li>
+					<li><a href="#">京东超市</a></li>
+					<li><a href="#">全球购</a></li>
+					<li><a href="#">热门推荐</a></li>
+					<li><a href="#">男装</a></li>
+					<li><a href="#">女装</a></li>
+					<li><a href="#">母婴</a></li>
+					<li><a href="#">电器</a></li>
+					<li><a href="#">京东超市</a></li>
+					<li><a href="#">全球购</a></li>
+					<li><a href="#">热门推荐</a></li>
+					<li><a href="#">男装</a></li>
+					<li><a href="#">女装</a></li>
+					<li><a href="#">母婴</a></li>
+					<li><a href="#">电器</a></li>
+					<li><a href="#">京东超市</a></li>
+					<li><a href="#">全球购</a></li>
+					<li><a href="#">热门推荐</a></li>
+					<li><a href="#">男装</a></li>
+					<li><a href="#">女装</a></li>
+					<li><a href="#">母婴</a></li>
+					<li><a href="#">电器</a></li>
+			
+				</ul>
+			</aside>
+			<main></main>
+		</section>
+		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+		<script type="text/javascript">
+			var top1 = 0;
+			var startY=0;
+			var aside = document.querySelector("aside");
+			var ul = document.querySelector("aside ul");
+			var top2 = (150-aside.clientHeight+ul.clientHeight)*-1;
+			aside.addEventListener("touchstart",function(e){
+				var x = e.targetTouches[0].clientX;
+				startY = e.targetTouches[0].clientY;
+				
+			});
+			aside.addEventListener("touchmove",function(e){
+				var x = e.targetTouches[0].clientX;
+				var y = e.targetTouches[0].clientY;
+				var tmp = top1+y-startY;
+				tmp = tmp>150?150:tmp;
+				tmp = tmp<top2?top2:tmp;
+				ul.style.top= tmp+"px"
+			});
+			aside.addEventListener("touchend",function(e){
+				var x = e.changedTouches[0].clientX;
+				var y = e.changedTouches[0].clientY;
+				top1 = top1+y-startY;
+				if(top1>0){
+					top1= 0;
+					
+				}
+				if(top1<top2){
+					top1 = top2+150;
+				}
+				$(ul).animate({top:top1+"px"},300)
+				startY = y
+			});
+			aside.addEventListener("touchcancel",function(e){
+				console.log("取消")
+			});
+			
+		</script>
+	</body>
+</html>
